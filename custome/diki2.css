@@ -1,0 +1,67 @@
+body{
+    min-height: 2000px;
+}
+
+.jumbotron{
+  padding-top: 6rem;
+    background-color: #004445;
+    color: white;
+}
+
+#project,#education,#kontak
+{
+    background-color: #004445;
+    color:white;
+}
+
+
+section{
+    padding-top: 5rem;
+}
+
+.gambar{
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s; 
+    -o-transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+.gambar:hover{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  opacity: 1;
+  z-index: 2;
+}
+
+.gambar2{
+  -webkit-transition-duration: 0.5s; 
+  -moz-transition-duration: 0.5s; 
+  -o-transition-duration: 0.5s;
+}
+
+.gambar2:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1);
+opacity: 1;
+z-index: 2;
+}
+
+
+
+#tag{
+font-size: 3rem;
+font-weight: bold;
+font-family:fontgw;
+}
+.subtag{
+font-weight: bold;
+}
+
+
+/* 
+@font-face {
+  font-family: keren';
+  src: url(font/Titillium_Web/TitilliumWeb-Bold.ttf);
+} */
